@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-a = 89
-b = 10
-a, b = b, a
+i = 89
+j = 10
+i, j = j, i
 
-print("a={:d} - b={:d}".format(a, b))
+print("i={:d} - j={:d}".format(i, j))
