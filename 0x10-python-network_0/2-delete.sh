@@ -1,3 +1,3 @@
 #!/bin/bash
-# Script that sends a DELETE request to the URL passed
-curl -s "$1" -X DELETE
+# Issue a DELETE request to the specified URL and present the content of the response.
+curl -sX DELETE "$1"
