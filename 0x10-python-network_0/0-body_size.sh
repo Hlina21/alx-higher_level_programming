@@ -1,3 +1,3 @@
 #!/bin/bash
-# Script that shows the Content-Length from a HTTP request
-curl -sI "$1" | grep "Content-Length:" | cut -d " " -f 2
+# This script calculates the size of the body of the HTTP response for a given URL
+curl -s "$1" | wc -c
